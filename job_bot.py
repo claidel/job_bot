@@ -1,7 +1,9 @@
 from flask import Flask
 import threading
 import offreBot
-
+from telethon import TelegramClient, events, Button
+from pymongo import MongoClient
+import random
 
 class JobBot:
     """Bot Telegram avec Flask pour un hébergement stable sur Render."""
