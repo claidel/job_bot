@@ -1,5 +1,7 @@
 from flask import Flask
 import threading
+import offreBot
+
 
 class JobBot:
     """Bot Telegram avec Flask pour un hébergement stable sur Render."""
